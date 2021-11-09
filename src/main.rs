@@ -1,8 +1,5 @@
-use std::cmp::Ordering;
-use std::io::stdin;
-
-use rand::Rng;
+use rust_guide::adder::add;
 
 fn main() {
-    println!("Hello World!");
+    println!("{}",add(1,2));
 }

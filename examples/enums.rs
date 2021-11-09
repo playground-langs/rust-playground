@@ -82,7 +82,7 @@ fn some_u8_value(x: u8) {
 
 fn match_one(x: Option<u8>) {
     match x {
-        some(1) => println!("one"),
+        Some(1) => println!("one"),
         _ => ()
     }
     //another convenient way

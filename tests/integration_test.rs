@@ -1,4 +1,4 @@
-use rust_guide::adder;
+use rust_playground::adder;
 
 #[test]
 fn test_add() {
